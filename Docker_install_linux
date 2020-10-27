@@ -1,0 +1,6 @@
+sudo yum update
+sudo yum install docker
+docker -v
+sudo systemctl start docker
+sudo systemctl status docker
+sudo systemctl stop docker
