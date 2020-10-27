@@ -1,0 +1,7 @@
+docker ps
+docker ps --filter "status=exited"
+docker ps -a
+docker run hello-world
+docker run tutum/hello-world
+Install-WindowsFeature containers
+docker ps -a
