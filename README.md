@@ -50,6 +50,8 @@ So basically for the source code repository I have been using Bitbucket so when 
     Proficient knowledge with Helm charts to manage and release of helm packages.
     
     
+# No, unless the the container has been terminated or we have destroyed the container, but the data will be there is no loss of the data if you just exit that
+    
     
 
     
