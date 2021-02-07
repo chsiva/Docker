@@ -27,9 +27,11 @@
     And we are also implementing advanced deployment techniques like blue green Canary.
     
 # jenkins, github, docker  
-So basically for the source code repository I have been using Bitbucket so when our dollar per checks in accord with source code repository hi got a chance to integrate that within Jenkins and basically in order to trigger that action I have used like web hooks. So once we build the package using like Maven POM as I've been working with Java based application so I have used like Gen plugin for automated testing. And once it has been successfully done have been integrated that within sonar cube in order to build out the code coverage static analysis in order to come up with a better quality code. And then we usually regenerate like jaren var file storing that with an artifactory like Nexus Far more than I've been getting that on top of target environments.
+So basically for the source code repository(GitHUb), integrate that within Jenkins and basically in order to trigger that action I have used like web hooks.
+So once we build the package using like Maven. I've been working with Java based application so I have used like Gen plugin for automated testing. 
+And once it has been successfully done. Then ntegrated that within sonar cube in order to build out the code coverage static analysis in order to come up with a better quality code.
 
-# Yes, I have managed like the environment variable choosing like shared libraries across like multiple projects. As part of like dependencies and also creating a     custom library from scratch within Jenkins
+# Yes, I have managed like the environment variable choosing like shared libraries across like multiple projects. As part of like dependencies and also creating a     custom library from scratch within Jenkins.
 
 # in my last assignment have been dockerized most of the Spring Boot applications and middleware applications like j boss, Tomcat Apache for configuration changes     and a production part so that when I've used like dockerfile in order to achieve that,
  
@@ -41,7 +43,7 @@ So basically for the source code repository I have been using Bitbucket so when 
     using a "Docker hub" or "Docker registry", in order to store our "base images".
     Once the build and test is successfully done, we store our like artifactory within like Nexus or j frog. But the base images we will store that source code         repository. And like enterprise Docker registry.
     
-# For scanning of the images are used like anchor and probably within Jenkins plugin.
+# For scanning of the images we used anchor and probably within Jenkins plugin.
 
 # Helm charts: 
     Yes, basically I use like Helm charts. As part of like deployment techniques I use like cops on top of AWS, and parallely I use the Ansible in order to automate     that task for setting up a Kubernetes cluster deployments
