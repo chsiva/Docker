@@ -1,0 +1,6 @@
+1) created:  A container that has been created (e.g. with docker create) but not started
+2) restarting: A container that is in the process of being restarted
+3) running:  A currently running container
+4) paused:  A container whose processes have been paused
+5) exited:  A container that ran and completed ("stopped" in other contexts, although a created container is technically also "stopped")
+6) dead:  A container that the daemon tried and failed to stop (usually due to a busy device or resource used by the container)
