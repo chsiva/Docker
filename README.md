@@ -19,7 +19,8 @@
 # Deployment
     So in order to create like whenever we are taking the source code compiling it then automatically pushing that into a Docker image. 
     I mean to select creating an image out of it. So then usually we run the test, make sure that image that has the same functionality that we are looking for. 
-    So once the test has been successfully done. We ship them and store that it remote repository, like j frog artifactory, then we can use containers, apply that       in the pod definitions within Kubernetes, for all our micro services. S
+    So once the test has been successfully done. We ship them and store that it remote repository, like j frog artifactory, 
+    then we can use containers, apply that in the pod definitions within Kubernetes, for all our micro services.
     
     So basically using built in templates for pod definitions for our service definitions for the deployments. 
     We are being to automate all the deployments such that we have zero downtime.
