@@ -46,11 +46,15 @@ And once it has been successfully done. Then ntegrated that within sonar cube in
 # For scanning of the images we used anchor and probably within Jenkins plugin.
 
 # Helm charts: 
-    Yes, basically I use like Helm charts. As part of like deployment techniques I use like cops on top of AWS, and parallely I use the Ansible in order to automate     that task for setting up a Kubernetes cluster deployments
+
+
+    Yes, basically I use like Helm charts. As part of like deployment techniques and 
+    parallely I use the Ansible in order to automate that task for setting up a Kubernetes cluster deployments
  
     Managed Kubernetes charts using Helm, and Created reproducible builds of the Kubernetes applications, managed Kubernetes deployment and service files and           managed releases of Helm packages.
  
     Extensively worked with Scheduling, deploying, managing container replicas onto a node using Kubernetes and experienced in creating Kubernetes clusters work         with Helm charts running on the same cluster resources.
+    
     Proficient knowledge with Helm charts to manage and release of helm packages.
     
     
