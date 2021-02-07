@@ -57,6 +57,20 @@ And once it has been successfully done. Then ntegrated that within sonar cube in
     
     Proficient knowledge with Helm charts to manage and release of helm packages.
     
+# Helm Use cases:
+    
+    Think that you have a couple squads that develop microservice for some company. 
+    If you can make a Chart that works for most of them, the deploy of each  microservices would differ only by the image and the resources required. 
+    This way you get an standardized deployment and easier to all developers.
+
+    Another use case is deploying applications which requires a lot of moving parts. 
+    For example, if you want to deploy a Grafana server on Kubernetes you're probably going to need at least a Deployment and a Configmap, 
+    then you would need a service that matches this deployment. And if you want to expose it to the internet you need an ingress too.
+
+    One relatively simple application, would require 4 different YAMLs that you would to manually configure and make sure everything is correct
+    instead you could do a simple helm install and reuse the configuration that someone has already made, 
+    sometimes even the company who created the Application.
+    
     
 # No, unless the the container has been terminated or we have destroyed the container, but the data will be there is no loss of the data if you just exit that
     
