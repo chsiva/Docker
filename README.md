@@ -17,7 +17,13 @@
      Calling methods inside Jenkins file
      
 # Deployment
-    So in order to create like whenever we are taking the source code compiling it then automatically pushing that into a Docker image. I mean to select creating an     image out of it. So then usually we run the test, make sure that image that has the same functionality that we are looking for. So once the test, test has been     successfully done. We ship them and store that it remote repository, like j frog artifactory, then we can use containers, apply that in the pod definitions         within Kubernetes, for all our micro services. So basically using built in templates for pod definitions for our service definitions for the deployments. We are     being to automate all the deployments such that we have zero downtime. "And we are also implementing advanced deployment techniques like blue green Canary."
+    So in order to create like whenever we are taking the source code compiling it then automatically pushing that into a Docker image. 
+    I mean to select creating an image out of it. So then usually we run the test, make sure that image that has the same functionality that we are looking for. 
+    So once the test has been successfully done. We ship them and store that it remote repository, like j frog artifactory, then we can use containers, apply that       in the pod definitions within Kubernetes, for all our micro services. S
+    
+    So basically using built in templates for pod definitions for our service definitions for the deployments. 
+    We are being to automate all the deployments such that we have zero downtime.
+    And we are also implementing advanced deployment techniques like blue green Canary.
     
 # jenkins, github, docker  
 So basically for the source code repository I have been using Bitbucket so when our dollar per checks in accord with source code repository hi got a chance to integrate that within Jenkins and basically in order to trigger that action I have used like web hooks. So once we build the package using like Maven POM as I've been working with Java based application so I have used like Gen plugin for automated testing. And once it has been successfully done have been integrated that within sonar cube in order to build out the code coverage static analysis in order to come up with a better quality code. And then we usually regenerate like jaren var file storing that with an artifactory like Nexus Far more than I've been getting that on top of target environments.
