@@ -1,13 +1,8 @@
 # What you did with docker?
 
     1. Involved in using of Docker to build images using maven and Experienced in deploying Micro Services to App Servers using Jenlins pipelines.
-    2. Used Jenkins and pipelines to drive all micro services builds out to the Docker-registry and then deployed to Kubernetes, Created Pods and managed using            Kubernetes.
-    3. Initiated Microservices application through Docker and Kubernetes cluster formation for scalability of the application. Deployed Microservices with Ansible          Playbook in Docker containers
-    4. Automated Compute Engine and Docker Image Builds with Jenkins and Kubernetes, created private cloud using Kubernetes that supports DEV, TEST and PROD                environments. 
-    5. Worked on Integrating Docker container-based test infrastructure to Jenkins CI test flow and set up build environment integrating with Git and JIRA to              trigger builds using WebHooks and Slave Machines.
-    6. Extensively worked on Docker containers by deploying and maintaining production environment using AWS EC2 instances. Worked on infrastructure with Docker            containerization using docker weave.
-    7. Automated the installation of Kubernetes single node environment on a Jenkins slave node using Kubeadm setup scripts. Implemented a Continuous Delivery (CD)        pipeline with Docker, Jenkins and GitHub and AWS AMI's. 
-    8. Used Kubernetes to deploy scale, load balance and manage Docker containers with multiple namespace ids.
+    2. Used Jenkins and pipelines to drive all micro services builds out to the Docker-registry and then deployed to Kubernetes Clusters.
+    6. Extensively worked on Docker containers by deploying and maintaining production environment using AWS EC2 instances.
 
 # Docker issues?
     Pod killed with out of memory, 
