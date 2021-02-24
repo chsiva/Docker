@@ -4,6 +4,11 @@
     2. Used Jenkins and pipelines to drive all micro services builds out to the Docker-registry and then deployed to Kubernetes Clusters.
     6. Extensively worked on Docker containers by deploying and maintaining production environment using AWS EC2 instances.
 
+
+# Docker image process in GCP
+
+https://cloud.google.com/container-registry/docs/pushing-and-pulling
+
 # Docker issues?
     Pod killed with out of memory, 
     Pod is running but no responding
