@@ -1,0 +1,26 @@
+448  yum install docker
+  449  systemctl start docker
+  450  docker images
+  451  docker pull centos:7
+  452  docker images
+  453  vi Dockerfile
+  462  echo "WElcome to HTTPD" > index.html
+  465  docker build -t httpd . ( docker with tag name http/<any> in current location)
+  466  docker images
+  468  docker run -d eff9fbe47ac4 (run in detach mode to see status)
+  469  docker ps -a ( check running containers)
+  471  docker exec -it b6427b562418 /bin/bash. ( to enter into running container)
+  473  docker stop b6427b562418. ( stop container)
+  474  docker images
+  475  docker run -d -p 80:80 eff9fbe47ac4 (expose container  to public 80 port )
+  476  docker ps -a
+  477  history
+
+
+root@instance-1 ~]# cat Dockerfile 
+FROM centos:7
+
+RUN yum install -y httpd
+COPY index.html /var/www/html
+EXPOSE 80
+ENTRYPOINT ["/usr/sbin/httpd", "-D", "FOREGROUND"]
