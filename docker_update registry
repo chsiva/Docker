@@ -1,0 +1,8 @@
+yum install docker
+systemctl status docker
+systemctl start docker
+docker pull busybox
+docker images
+docker tag busybox gcr.io/testingpjct-dev/busybox
+docker images
+docker push gcr.io/testingpjct-dev/busybox
